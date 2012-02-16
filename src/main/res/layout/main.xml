@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+  <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/animation_sample"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/animation_sample"/>
+
+  <ImageView
+      android:id="@+id/droidImage"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="20dp"
+      android:src="@drawable/icon" />
+
+</LinearLayout>
